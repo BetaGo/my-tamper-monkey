@@ -8,7 +8,31 @@ module.exports = {
   },
   module: {
     rules: [
-      // --------
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+              modules: {
+                compileType: "icss",
+              },
+            },
+          },
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [["postcss-preset-env"]],
+              },
+            },
+          },
+        ],
+      },
       // SCSS ALL EXCEPT MODULES
       {
         test: /\.scss$/,

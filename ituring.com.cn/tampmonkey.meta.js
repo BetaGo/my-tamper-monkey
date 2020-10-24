@@ -6,4 +6,5 @@
 // @author       You
 // @match        http*://www.ituring.com.cn/book/*
 // @grant        none
+// @require      https://unpkg.com/simplebar@latest/dist/simplebar.min.js
 // ==/UserScript==

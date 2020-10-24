@@ -2,6 +2,8 @@
   body > div.container.page-box.book-page > div > div.col-md-3.side {
     position: sticky;
     top: 150px;
+    max-height: calc(100vh - 180px);
+    overflow: auto;
   }
 }
 
@@ -9,6 +11,8 @@
   body > div.container.page-box.book-page > div > div.col-md-3.side {
     position: sticky;
     top: 90px;
+    max-height: calc(100vh - 120px);
+    overflow: auto;
   }
 }
 
@@ -16,6 +20,8 @@
   body > div.container.page-box.book-page > div > div.col-md-3.side {
     position: sticky;
     top: 60px;
+    max-height: calc(100vh - 90px);
+    overflow: auto;
   }
 }
 
