@@ -1,3 +1,8 @@
+code {
+  font-family: "Operator Mono SSm Lig", "Sarasa Mono SC", "JetBrains Mono",
+    Consolas, "Courier New", monospace !important;
+}
+
 @media only screen and (min-width: 768px) {
   body > div.container.page-box.book-page > div > div.col-md-3.side {
     position: sticky;
