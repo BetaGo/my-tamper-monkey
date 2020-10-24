@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+  body > div.container.page-box.book-page > div > div.col-md-3.side {
+    position: sticky;
+    top: 150px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (min-width: 768px) {
+  body > div.container.page-box.book-page > div > div.col-md-3.side {
+    position: sticky;
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body > div.container.page-box.book-page > div > div.col-md-3.side {
+    position: sticky;
+    top: 60px;
+  }
+}
+
+.float_view {
+  visibility: hidden;
+}
